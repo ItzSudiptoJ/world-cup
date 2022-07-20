@@ -189,7 +189,7 @@ view button
         font-size: 40px;
         font-weight: 500;
         color: #FFFFFF;
-        padding-top: 80px;
+        padding-top: 70px;
     }
     
     hr {
@@ -263,4 +263,64 @@ view button
     .nav1-2nd a {
         background-color: #FFFFFF;
         padding: 10px 80px;
+    }
+    /* ------------------------------
+    2nd page end
+     ------------------------------- */
+    /* .................................
+    media query start 
+    ....................... */
+    
+    @media screen and (max-width:576px) {
+        .hero-bg {
+            margin: 5px;
+            width: 312px;
+            display: block;
+        }
+        .hero-left {
+            margin-top: -20px;
+            padding: 98px 25px 0px 55px;
+        }
+        .hero-left h1 {
+            font-size: 30px;
+            text-align: center;
+            margin-top: -50px;
+            /* margin-left: -100px; */
+        }
+        .hero-left p {
+            font-size: 10px;
+            text-align: center;
+        }
+        .hero-left a {
+            font-size: 10px;
+            font-weight: 300px;
+            padding: 4px 8px;
+            margin-left: 70px;
+        }
+        .hero-right img {
+            width: 200px;
+            height: 250px;
+            padding: 0 45px
+        }
+        .total-area,
+        .right-blog {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            justify-items: center;
+        }
+        .goal p {
+            text-align: center;
+            padding-top: 0px;
+            padding-bottom: 0;
+        }
+        hr {
+            margin-top: -30px;
+        }
+        .view-more {
+            visibility: initial;
+        }
+        .foot-link ul {
+            display: block;
+            text-align: center;
+        }
     }
